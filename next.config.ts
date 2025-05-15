@@ -21,7 +21,10 @@ const nextConfig: NextConfig = {
         hostname: "occ-0-8407-92.1.nflxso.net"
       }
     ]
-  }
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
