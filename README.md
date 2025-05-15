@@ -1,6 +1,17 @@
+# Learn Next.js Blog App
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+2. **Set up environment variables:**
+   - Copy `.env.example` to `.env` and fill in your database and Kinde credentials.
 
 First, run the development server:
 
@@ -19,6 +30,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Features
+
+- User authentication with Kinde
+- Create, read, and display blog posts
+- Responsive UI with custom components
+- Prisma ORM for database access
 
 ## Learn More
 
