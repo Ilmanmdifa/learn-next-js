@@ -22,9 +22,11 @@ export default async function DashboardRoute() {
   const user = await getUser();
 
   if (!user) {
-    <div className="text-xl font-medium">
-      You must be logged in to view your dashboard
-    </div>;
+    return (
+      <div className="text-xl font-medium">
+        You must be logged in to view your dashboard
+      </div>
+    );
   }
 
   const data = await getData(user?.id);
